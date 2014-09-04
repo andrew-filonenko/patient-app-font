@@ -1,12 +1,13 @@
 {
-  "name": "symbols-for-sketch",
+  "name": "patient-app-font",
   "version": "1.0.2",
   "homepage": "https://github.com/cognitom/symbols-for-sketch",
   "repository": {
     "type": "git",
     "url": "git://github.com/cognitom/symbols-for-sketch.git"
   },
-  "description": "Symbol font templates for Sketch.app",
+  "description":
+    "A custom symbol font templates based on cognitom/symbols-for-sketch",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
