@@ -1,0 +1,27 @@
+{
+  "name": "patient-app-font",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cognitom/symbols-for-sketch",
+  "authors": [
+    "Andrey Filonenko <andrey.filonenko@aol.com>"
+  ],
+  "description": "A symbol font for a set of custom icons.",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "font",
+    "symbol-font"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "symbol-font-14px.sketch",
+    "symbol-font-16px.sketch",
+    "templates",
+    "package.json",
+    "gulpfile.js",
+    "test",
+    "tests"
+  ]
+}
