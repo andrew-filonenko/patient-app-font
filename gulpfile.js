@@ -8,7 +8,7 @@ var fontName = 'symbols'; // set name of your symbol font
 var template = 'fontawesome-style'; // you can also choose 'foundation-style'
 
 gulp.task('symbols', function(){
-  gulp.src('symbol-font-14px.sketch') // you can also choose 'symbol-font-16px.sketch'
+  gulp.src('symbol-font-16px.sketch') // you can also choose 'symbol-font-16px.sketch'
     .pipe(sketch({
       export: 'artboards',
       formats: 'svg'
