@@ -3,7 +3,6 @@ var rename = require("gulp-rename");
 var sketch = require("gulp-sketch");
 var iconfont = require('gulp-iconfont');
 var consolidate = require('gulp-consolidate');
-
 var fontName = 'symbols'; // set name of your symbol font
 var template = 'fontawesome-style'; // you can also choose 'foundation-style'
 
@@ -36,5 +35,6 @@ gulp.task('symbols', function(){
 });
 
 gulp.task('watch', function(){
-    gulp.watch('*.sketch/Data', ['symbols']);
+  gulp.watch('*.sketch/Data', ['symbols']);
+
 });
